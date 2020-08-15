@@ -79,7 +79,7 @@ int Stack::pop()
 
 void Stack::display()
 {
-    if(size==0)
+    if(top==-1)
     {
         cout<<"[]\n";
         return;
