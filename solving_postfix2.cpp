@@ -135,6 +135,7 @@ string to_postfix(string s)
         s[0]='m';
     int position;
     //changing symbols for unary operator so that they are unique and sing character
+    //symbol for log is l and for unary minus(negation) is m
     do
     {
         position=s.find("log");
